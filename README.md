@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-For this capstone project, we analyze 911 emergency call data to gain insights into call volumes, reasons for calls, and temporal patterns. The project focuses on exploratory data analysis (EDA) using Python and various data visualization libraries.
+For this capstone project, we analyze historical stock market data to gain insights into stocks price trends and patterns. The project focuses on exploratory data analysis (EDA) using Python and various data visualization libraries.
 
 ## Table of Contents
 
