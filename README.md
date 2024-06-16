@@ -1,4 +1,4 @@
-# 911 Calls Capstone Project
+# Finance Analysis Capstone Project
 
 ## Project Overview
 
@@ -17,37 +17,38 @@ For this capstone project, we analyze 911 emergency call data to gain insights i
 
 ## Project Description
 
-This project uses a dataset from Kaggle containing emergency call information, including details such as the type of emergency, location coordinates, and timestamps. The goals of this project include:
+This project uses historical stock price data to perform exploratory data analysis. The main objectives include:
 
-- Analyzing trends and patterns in emergency call data.
-- Visualizing call volumes over time, by location, and by type of emergency.
-- Exploring correlations and insights to aid emergency response planning.
+- Analyzing trends and patterns in stock prices.
+- Visualizing stock price movements over time.
+- Conducting basic statistical analysis and calculations.
 
 ## Data Source
-The dataset used is sourced from [Kaggle's 911 Calls dataset](https://www.kaggle.com/mchirico/montcoalert) (Provided in the file "911.csv"). It includes information such as:
-- Latitude and longitude of the emergency call
-- Description of the emergency
-- Zip code and township of the emergency location
-- Timestamp of the call
-- Type of emergency (e.g., EMS, Fire, Traffic)
+The dataset used in this project consists of historical stock price data. It includes information such as:
+- Date: Date of the stock price data
+- Open: Opening price of the stock on that day
+- High: Highest price reached during the day
+- Low: Lowest price reached during the day
+- Close: Closing price of the stock on that day
+- Volume: Number of shares traded
   
 ## Installation
 **Clone the repository:**
     ```sh
-    git clone https://github.com/simhayn/emergency-calls.git
-    cd emergency-calls
+    git clone https://github.com/simhayn/finance-analysis.git
+    cd finance-analysis
     ```
 ## Usage
 Run the Jupyter Notebook for data analysis:
     ```sh
-    jupyter notebook notebooks/911_calls_analysis.ipynb
+    jupyter notebook notebooks/03-Finance Project.ipynb
     ```
 
 ## Features
-- Data Loading and Cleaning: Clean and preprocess the dataset.
-- Exploratory Data Analysis (EDA): Analyze call volumes, trends, and geographical distribution.
-- Visualization: Use matplotlib, seaborn, and plotly for visualizing emergency call data.
-- Insights: Gain insights to aid emergency response planning.
+- Data Loading and Cleaning: Load the dataset, clean missing values, and preprocess data for analysis.
+- Exploratory Data Analysis (EDA): Analyze trends, distributions, and correlations in stock prices.
+- Visualization: Use matplotlib and seaborn to create visualizations of stock price data.
+- Statistical Analysis: Calculate basic statistics and metrics to gain insights into stock performance.
 
 ## Contributing
 Contributions are welcome! Fork the repository and submit a pull request.
