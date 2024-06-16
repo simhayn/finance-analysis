@@ -30,7 +30,7 @@ The dataset used is sourced from [Kaggle's 911 Calls dataset](https://www.kaggle
 - Zip code and township of the emergency location
 - Timestamp of the call
 - Type of emergency (e.g., EMS, Fire, Traffic)
-- 
+  
 ## Installation
 **Clone the repository:**
     ```sh
