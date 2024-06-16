@@ -23,6 +23,14 @@ This project uses a dataset from Kaggle containing emergency call information, i
 - Visualizing call volumes over time, by location, and by type of emergency.
 - Exploring correlations and insights to aid emergency response planning.
 
+## Data source
+The dataset used is sourced from [Kaggle's 911 Calls dataset](https://www.kaggle.com/mchirico/montcoalert). It includes information such as:
+- Latitude and longitude of the emergency call
+- Description of the emergency
+- Zip code and township of the emergency location
+- Timestamp of the call
+- Type of emergency (e.g., EMS, Fire, Traffic)
+- 
 ## Installation
 **Clone the repository:**
     ```sh
@@ -36,10 +44,10 @@ Run the Jupyter Notebook for data analysis:
     ```
 
 ## Features
-* Data Loading and Cleaning: Clean and preprocess the dataset.
-* Exploratory Data Analysis (EDA): Analyze call volumes, trends, and geographical distribution.
-* Visualization: Use matplotlib, seaborn, and plotly for visualizing emergency call data.
-* Insights: Gain insights to aid emergency response planning.
+- Data Loading and Cleaning: Clean and preprocess the dataset.
+- Exploratory Data Analysis (EDA): Analyze call volumes, trends, and geographical distribution.
+- Visualization: Use matplotlib, seaborn, and plotly for visualizing emergency call data.
+- Insights: Gain insights to aid emergency response planning.
 
 ## Contributing
 Contributions are welcome! Fork the repository and submit a pull request.
